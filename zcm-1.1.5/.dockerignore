@@ -1,0 +1,4 @@
+Dockerfile
+build
+deps
+**/node_modules
