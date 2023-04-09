@@ -9,4 +9,6 @@ include_directories(${CMAKE_CURRENT_LIST_DIR}/zcm-1.1.5/build/examples/examples/
 
 add_executable(pub src/pub.cpp)
 target_link_libraries(   pub  /home/sun/zcm_demo/zcm-1.1.5/build/zcm/libzcm.so )
+add_executable(sub src/sub.cpp)
+target_link_libraries(   sub  /home/sun/zcm_demo/zcm-1.1.5/build/zcm/libzcm.so )
 
