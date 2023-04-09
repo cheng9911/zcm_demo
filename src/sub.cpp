@@ -28,7 +28,7 @@ class Handler
 
 int main(int argc, char *argv[])
 {
-    zcm::ZCM zcm {"ipc"};
+    zcm::ZCM zcm {""};
     if (!zcm.good())
         return 1;
 
